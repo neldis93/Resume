@@ -1,4 +1,4 @@
-// Archivo de configuracion
+// configuration file
 
 require('dotenv').config();
 
