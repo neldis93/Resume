@@ -40,7 +40,7 @@ router.post('/send-mail', async (req, res) => {
 
     
     console.log('Message sent',info.messageId);
-    res.redirect('/');
+    res.redirect('https://resume-neldis-barrios.herokuapp.com/');
 });
 
 
