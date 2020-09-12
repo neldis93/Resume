@@ -21,7 +21,7 @@ router.post('/send-mail', async (req, res) => {
     const transporter = nodemailer.createTransport({
         host: 'smtp-mail.outlook.com',
         port: 587,
-        secure: false, // en false lo envia sin SSL
+        secure: true, // en false lo envia sin SSL
         auth: {
             user: process.env.USER,
             pass: process.env.PASSWORD 
