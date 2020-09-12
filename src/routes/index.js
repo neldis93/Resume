@@ -4,7 +4,7 @@ const nodemailer = require('nodemailer');
 const router = Router();
 
 
-router.post('https://resume-neldis-barrios.herokuapp.com//send-mail', async (req, res) => {
+router.post('/send-mail', async (req, res) => {
     const { firstname, lastname, email, phone, message } = req.body;
 
     contentHtml= `
