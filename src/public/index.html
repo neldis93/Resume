@@ -173,7 +173,7 @@
             <!-- Awards-->
             <section class="resume-section" id="awards">
                 <div class="resume-section-content">
-                    <h2 class="mb-5" style="color: #bd5d38;">Awards & Certifications</h2>
+                    <h2 class="mb-5" style="color: #bd5d38;">Certifications</h2>
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
@@ -218,30 +218,23 @@
                     <form name="form" action="/send-mail" method="POST">
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <input type="text" name="firstname" class="form-control" placeholder="First name" required> 
+                                    <input type="text" name="firstname" class="form-control" placeholder="First name"> 
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <input type="text" name="lastname" type="text" class="form-control" placeholder="Last name" required>
+                                    <input type="text" name="lastname" type="text" class="form-control" placeholder="Last name">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <input type="text" name="email" class="form-control required required_email" placeholder="Email" required>
+                                <input type="text" name="email" class="form-control required required_email" placeholder="Email">
                             </div>
                             <div class="form-group">
-                                <input type="text" name="phone" class="form-control" placeholder="Phone" required>
+                                <input type="text" name="phone" class="form-control" placeholder="Phone">
                             </div>
                             <div class="form-group">
-                                <textarea name="message" cols="15" rows="5" class="form-control" placeholder="Enter your message" required></textarea>
+                                <textarea name="message" cols="15" rows="5" class="form-control" placeholder="Enter your message"></textarea>
                             </div>
                             <div class="send">
-                            <button type="submit" name="btn1" onclick="swal({
-                                title: 'Goob!',
-                                text: 'Message sent successfully',
-                                icon: 'success',
-                                button: false,
-                                timer: 6000,
-                                customClass:'Custom_Cancel'
-                              });" class="btn btn-primary btn-block btn-style">Submit</button>
+                            <button type="submit" name="btn1" onclick=" return val()" class="btn btn-primary btn-block btn-style">Submit</button>
                             </div>
                     </form>
                 </div>
