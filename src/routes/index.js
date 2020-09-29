@@ -30,14 +30,7 @@ router.post('/send-mail', async (req, res) => {
             rejectUnauthorized: false
         }
     });
-    transporter.verify(function(error) {
-        if (error) {
-          console.log(error);
-        } else {
-          console.log("Server is ready to take our messages");
-        }
-      });
-
+        
     const info= await transporter.sendMail({
         from: "'Neldis server' <neldis12@hotmail.com>",
         to: 'neldis.dj56@gmail.com',

@@ -1,16 +1,17 @@
+
 //import swal from 'sweetalert';
 
 function val () {
     var form = document.form;
 
     if (form.firstname.value == 0){
-        swal({text:"The firtname field is required",button: false,timer:4000});
+        swal({text:"The first name field is required",button: false,timer:4000});
         form.firstname.value="";
         form.firstname.focus();
         return false;
     }
     if (form.lastname.value == 0){
-      swal({text:"The lastname field is required",button: false,timer:4000}); 
+      swal({text:"The last name field is required",button: false,timer:4000}); 
       form.lastname.value="";
       form.lastname.focus();
       return false;
