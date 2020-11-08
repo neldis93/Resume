@@ -1,5 +1,9 @@
-# My resume made with Bootstrap, HTML, CSS, JavaScript and Nodejs.
+# Website project :computer:
 
+# Description 
+
+My resume on the web.
+#
 :link: http://www.neldisbarriosworld.com
 #
 
