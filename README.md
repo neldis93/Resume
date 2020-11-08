@@ -1,8 +1,6 @@
 # Website project :computer:
 
-# Description 
-
-My resume on the web.
+# My resume on the web.
 #
 :link: http://www.neldisbarriosworld.com
 #
